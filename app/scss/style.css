@@ -416,7 +416,7 @@ button:hover::before,
 
 .hero__image {
   position: relative;
-  background-image: url("/images/bg-intro-mobile.svg");
+  background-image: url("./images/bg-intro-mobile.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -429,7 +429,7 @@ button:hover::before,
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url("/images/bg-intro-desktop.svg");
+    background-image: url("./images/bg-intro-desktop.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
     width: 150%;
@@ -667,7 +667,7 @@ button:hover::before,
         grid-template-columns: 2fr 1fr 1fr 3fr;
     -ms-grid-rows: (auto)[1fr];
         grid-template-rows: repeat(1fr, auto);
-        grid-template-areas: "logo links1 links2 cta" "social links1 links2 copy";
+        grid-template-areas: "logo links1 links2 cta" "social links1 links2 copy";
     gap: 1rem;
     justify-items: start;
     -webkit-box-align: stretch;
